@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>smoke4.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1,-5}</string>
+                <key>spriteSize</key>
+                <string>{535,541}</string>
+                <key>spriteSourceSize</key>
+                <string>{601,619}</string>
+                <key>textureRect</key>
+                <string>{{1,1},{535,541}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>3</integer>
+            <key>pixelFormat</key>
+            <string>RGBA8888</string>
+            <key>premultiplyAlpha</key>
+            <false/>
+            <key>realTextureFileName</key>
+            <string>Fog8.png</string>
+            <key>size</key>
+            <string>{537,543}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:3642458146a3ff6d7e9832c3630731a6:edf31143b392b7c686eaff887aa5bc87:6fbab5578a125d76a2a26340b22a6dd4$</string>
+            <key>textureFileName</key>
+            <string>Fog8.png</string>
+        </dict>
+    </dict>
+</plist>

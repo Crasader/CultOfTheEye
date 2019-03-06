@@ -1,0 +1,3 @@
+Keystore Password: barelyalive@eae
+Alias: ReleaseKey
+Password: cult@eae

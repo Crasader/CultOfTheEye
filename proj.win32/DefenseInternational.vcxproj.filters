@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Helpers">
+      <UniqueIdentifier>{c0db86be-1957-48f5-98c1-e16e46059733}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Scenes">
+      <UniqueIdentifier>{80e3e5ee-eef8-425a-8925-b141e4cfa054}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tower &amp; Core">
+      <UniqueIdentifier>{687298d1-e43f-4f85-aefb-37d4c813230e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Monster">
+      <UniqueIdentifier>{356d0c2d-b72b-4a7c-af7f-d7ee99f5df41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Resources &amp; UI">
+      <UniqueIdentifier>{8423fade-ff91-4aa5-904c-82f3a1204695}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\GameScene">
+      <UniqueIdentifier>{c7414c16-9e5a-4293-afec-1ab35a19e707}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RNG.cpp">
+      <Filter>Source\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TitleScene.cpp">
+      <Filter>Source\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CreditsScene.cpp">
+      <Filter>Source\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ControlsScene.cpp">
+      <Filter>Source\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Debris.cpp">
+      <Filter>Source\Tower &amp; Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BallistaController.cpp">
+      <Filter>Source\Tower &amp; Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TowerManager.cpp">
+      <Filter>Source\Tower &amp; Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Tower.cpp">
+      <Filter>Source\Tower &amp; Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Projectile.cpp">
+      <Filter>Source\Tower &amp; Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PhysicsShapeCache.cpp">
+      <Filter>Source\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MonsterManager.cpp">
+      <Filter>Source\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Monster.cpp">
+      <Filter>Source\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Helpers.cpp">
+      <Filter>Source\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Core.cpp">
+      <Filter>Source\Tower &amp; Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ResourceManager.cpp">
+      <Filter>Source\Resources &amp; UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Gem.cpp">
+      <Filter>Source\Resources &amp; UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameScene.cpp">
+      <Filter>Source\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CollisionHandler.cpp">
+      <Filter>Source\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Audio.cpp">
+      <Filter>Source\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\EndScene.cpp">
+      <Filter>Source\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameScene_UserInput.cpp">
+      <Filter>Source\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameScene_Loading.cpp">
+      <Filter>Source\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UIButton.cpp">
+      <Filter>Source\Resources &amp; UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UITower.cpp">
+      <Filter>Source\Resources &amp; UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Tentacle.cpp">
+      <Filter>Source\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MonsterHead.cpp">
+      <Filter>Source\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MonsterBody.cpp">
+      <Filter>Source\Monster</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RNG.h">
+      <Filter>Source\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Types.h">
+      <Filter>Source\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TitleScene.h">
+      <Filter>Source\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CreditsScene.h">
+      <Filter>Source\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ControlsScene.h">
+      <Filter>Source\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Debris.h">
+      <Filter>Source\Tower &amp; Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BallistaController.h">
+      <Filter>Source\Tower &amp; Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TowerManager.h">
+      <Filter>Source\Tower &amp; Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Tower.h">
+      <Filter>Source\Tower &amp; Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Projectile.h">
+      <Filter>Source\Tower &amp; Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PhysicsShapeCache.h">
+      <Filter>Source\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MonsterManager.h">
+      <Filter>Source\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Monster.h">
+      <Filter>Source\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Helpers.h">
+      <Filter>Source\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Core.h">
+      <Filter>Source\Tower &amp; Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ResourceManager.h">
+      <Filter>Source\Resources &amp; UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Gem.h">
+      <Filter>Source\Resources &amp; UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameScene.h">
+      <Filter>Source\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CollisionHandler.h">
+      <Filter>Source\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Audio.h">
+      <Filter>Source\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EndScene.h">
+      <Filter>Source\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UIButton.h">
+      <Filter>Source\Resources &amp; UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UITower.h">
+      <Filter>Source\Resources &amp; UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Tentacle.h">
+      <Filter>Source\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MonsterHead.h">
+      <Filter>Source\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MonsterBody.h">
+      <Filter>Source\Monster</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
